@@ -1,0 +1,12 @@
+%buttons-format {
+    border-radius: 5%;
+    text-align: center;
+    font-size: 30px;
+    width: 90px;
+    height: 60px;
+    
+    &:hover {
+        background-color: rgba(182, 105, 22, 0.716); 
+        transition: .7s ease;
+    }
+}

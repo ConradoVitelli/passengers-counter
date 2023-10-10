@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Passenger Counter</title>
+</head>
+    <body>
+        <section class="app-container">
+            <img class="background-image" src="/media/train-station.jpg">
+            <div class="title-number-container">
+                <h1 class="app-title">Passengers Entered:</h1>
+                <h2 class="number" id="id-counter">0</h2>
+                
+            </div> 
+            <div class="buttons-container">
+                <div class="buttons">
+                    <button class="plus-button" id="plus-button" onclick="increment()">+1</button>
+                </div>
+                <div class="buttons">
+                    <button class="minus-button" id="minus-button" onclick="decrement()">-1</button>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="save-button" id="save-button" onclick="save()">Save</button>
+            </div>
+            <h3 class="previous-entries" id="id-save">Saved Entries:</h3>
+            <script src="scripts/index.js"></script>
+        </section>
+    </body>
+</html>
