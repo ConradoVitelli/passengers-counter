@@ -18,6 +18,8 @@ function save() {
     savedElement.innerText += " " + printedElement  
 }
 
+// JS practice
+
 
 
 
